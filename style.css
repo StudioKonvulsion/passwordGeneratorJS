@@ -1,1 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@100;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Sofia, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: darkgreen;
+
+}
+
+.container{
+    width: 450px;
+    background: green;
+}
